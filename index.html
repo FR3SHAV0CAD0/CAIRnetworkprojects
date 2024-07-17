@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Critical Approaches to Indigenous Relationality Projects</title>
+    <meta property="og:description" content="24 Projects Funded by CAIR" />
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@4.5.0/dist/maplibre-gl.css' />
+    <link rel="stylesheet" href="css/style.css">
+    <script src='https://unpkg.com/maplibre-gl@4.5.0/dist/maplibre-gl.js'></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="zoom-buttons">
+        <button id="zoom-in">+</button>
+        <button id="zoom-out">-</button>
+    </div>
+    <div class="fly-to-buttons">
+        <button id="fly-edmonton">Fly to Edmonton, AB</button>
+        <button id="fly-victoria">Fly to Victoria, BC</button>
+        <button id="fly-regina">Fly to Regina, SK</button>
+    </div>
+    <div class="legend" id="legend">
+        <h3 style="color: rgb(43, 124, 159);">SUPPORTED PROJECTS WITH CAIR</h3>
+        <div>
+            <h4 style="color: rgb(57, 151, 227);">Theorizing and transforming Indigenous governance systems</h4>
+            <ul id="category1-list"></ul>
+        </div>
+        <div>
+            <h4 style="color: rgb(57, 151, 227);">Critical, local, and global approaches to Indigenous relationality</h4>
+            <ul id="category2-list"></ul>
+        </div>
+        <div>
+            <h4 style="color: rgb(57, 151, 227);">Honouring our Elders and training our youth through intergenerational knowledge transfer</h4>
+            <ul id="category3-list"></ul>
+        </div>
+    </div>
+    <div class="instructions-box" id="instructions-box">
+        <h4 style="color: rgb(43, 124, 159)";>How to Use the Map</h4>
+        <ul>
+            <li>Click on a point to view details.</li>
+            <li>Click on a label in the legend to zoom to the point.</li>
+            <li>Use the zoom buttons to zoom in or out.</li>
+        </ul>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
