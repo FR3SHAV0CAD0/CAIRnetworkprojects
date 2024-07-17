@@ -1,0 +1,74 @@
+body { margin: 0; padding: 0; }
+html, body, #map { height: 100%; }
+
+.legend {
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    z-index: 1;
+    max-width: 370px;
+    overflow: auto;
+}
+.legend h3 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.legend h4 {
+    margin-top: 0;
+    font-size: 14px;
+}
+.legend ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+.legend li {
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+.legend a {
+    text-decoration: none;
+    color: #3887be;
+    display: block;
+}
+.legend a:hover {
+    text-decoration: underline;
+}
+.instructions-box {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1;
+    max-width: 380px;
+    font-size: 15px;
+}
+.instructions-box h4 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.fly-to-buttons {
+    position: absolute;
+    top: 310px;
+    left: 10px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+.fly-to-buttons button {
+    background: whitesmoke;
+    border: none;
+    padding: 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
