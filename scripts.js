@@ -1,9 +1,10 @@
-const map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11',
-    center: [-104.136610, 49.013827],
-    zoom: 3.5
-});
+document.addEventListener('DOMContentLoaded', () => {
+    const map = new maplibregl.Map({
+        container: 'map',
+        style: 'https://demotiles.maplibre.org/style.json', // Using MapLibre's demo style
+        center: [-106.3468, 56.1304],
+        zoom: 3
+    });
 
 document.getElementById('zoom-in').addEventListener('click', () => {
     map.zoomIn();
