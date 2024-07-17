@@ -1,6 +1,6 @@
-const map = new maplibregl.Map({
+const map = new mapboxgl.Map({
     container: 'map',
-    style: 'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
+    style: 'mapbox://styles/mapbox/streets-v11',
     center: [-104.136610, 49.013827],
     zoom: 3.5
 });
